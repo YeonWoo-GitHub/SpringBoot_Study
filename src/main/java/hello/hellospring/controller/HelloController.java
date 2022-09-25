@@ -12,7 +12,7 @@ public class HelloController {
     @GetMapping("hello")
     public String hello(Model model) {
 
-        model.addAttribute("data", "hello!!");
+        model.addAttribute("data", "hello!!");          // key, value
         return "hello"; // hello.html 찾아줌
 
     }
